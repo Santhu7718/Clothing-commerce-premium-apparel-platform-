@@ -27,7 +27,6 @@ export const Navbar: React.FC<NavbarProps> = ({
   const isAdmin = user?.role === 'admin' || user?.role === 'co-owner';
 
   return (
-    // FIX 1: Reduced px-6 to px-3 on mobile to maximize available width
     <nav className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-3 md:px-16 py-4 md:py-6 transition-all duration-500 glass-panel border-b border-white/[0.05]">
       {/* Left Links */}
       <div className="flex items-center gap-6 md:gap-12 shrink-0">
@@ -45,21 +44,21 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
       </div>
 
-      {/* Center Brand - FIXED OVERLAP */}
-      <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none md:pointer-events-auto z-0">
+      {/* Center Brand - FOCUS MODE IMPLEMENTED */}
+      {/* FIX: Removed 'md:opacity-100'. Now it fades out on ALL screens when search is open. */}
+      <div className={`absolute left-1/2 -translate-x-1/2 pointer-events-none md:pointer-events-auto z-0 transition-all duration-500 ${isSearchOpen ? 'opacity-0 scale-95 blur-sm' : 'opacity-100 scale-100 blur-0'}`}>
         <h1 
           onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
-          // FIX 2: Responsive text size (text-[10px]) and reduced tracking (tracking-[0.15em]) on mobile
-          className="text-[10px] sm:text-xs md:text-2xl font-serif-premium tracking-[0.15em] md:tracking-[0.6em] font-bold text-white cursor-pointer select-none text-glow text-center whitespace-nowrap transition-all duration-300"
+          className="text-[10px] sm:text-xs md:text-2xl font-serif-premium tracking-[0.15em] md:tracking-[0.6em] font-bold text-white cursor-pointer select-none text-glow text-center whitespace-nowrap"
         >
-          THE HUMAN CLUB
+          YOUR BRAND NAME
         </h1>
       </div>
 
       {/* Right Icons */}
-      {/* FIX 3: shrink-0 prevents icons from being squashed, gap-1 tightens layout on mobile */}
       <div className="flex items-center gap-1 md:gap-5 shrink-0 z-10">
-        <div className={`flex items-center transition-all duration-700 overflow-hidden ${isSearchOpen ? 'w-24 md:w-64 opacity-100' : 'w-0 opacity-0'}`}>
+        {/* Search Bar */}
+        <div className={`flex items-center transition-all duration-700 overflow-hidden ${isSearchOpen ? 'w-32 md:w-64 opacity-100' : 'w-0 opacity-0'}`}>
           <input 
             type="text"
             value={searchQuery}
