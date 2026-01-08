@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
       <div className="relative z-30 text-center px-6 max-w-6xl">
         <div className="overflow-hidden mb-10">
           <p className="text-premium-gold tracking-[1em] uppercase text-[10px] font-bold animate-in slide-in-from-bottom-full duration-1000">
-            Unit Designation: YOUR BRNAD NAME 
+            Unit Designation: YOUR BRAND NAME 
           </p>
         </div>
         
