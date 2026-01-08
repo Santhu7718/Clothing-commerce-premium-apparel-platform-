@@ -164,7 +164,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose, items, 
 
                 <div className="p-6 bg-zinc-900/50 border border-white/5 rounded-sm">
                    <p className="text-[9px] text-zinc-500 uppercase tracking-widest leading-loose">
-                      All transactions are protected by Human Club's advanced SSL layer. Identity data is purged immediately after transaction confirmation.
+                      All transactions are protected by YOUR BRAND NAME advanced SSL layer. Identity data is purged immediately after transaction confirmation.
                    </p>
                 </div>
               </div>

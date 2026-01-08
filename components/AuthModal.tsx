@@ -99,7 +99,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
 
         <div className="relative h-40 bg-zinc-900/50 flex flex-col items-center justify-center border-b border-white/5 overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]" />
-          <h1 className="relative text-2xl font-serif-premium tracking-[0.8em] font-bold text-premium-gold text-glow">THE HUMAN CLUB</h1>
+          <h1 className="relative text-2xl font-serif-premium tracking-[0.8em] font-bold text-premium-gold text-glow">YOUR BRAND NAME</h1>
           <p className="relative text-[8px] uppercase tracking-[0.5em] text-zinc-600 mt-4 font-bold">Identity Protocol v4.2</p>
         </div>
 

@@ -43,7 +43,7 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
             <span className="text-[10px] font-bold uppercase tracking-[0.4em]">Close Archive</span>
           </button>
           <div className="text-center hidden md:block">
-            <h1 className="text-sm font-serif-premium tracking-[0.5em] font-bold text-premium-gold">THE HUMAN CLUB</h1>
+            <h1 className="text-sm font-serif-premium tracking-[0.5em] font-bold text-premium-gold">YOUR BRAND NAME</h1>
           </div>
           <div className="flex items-center gap-6">
             <button className="p-2 text-zinc-400 hover:text-white"><Share2 className="w-5 h-5" /></button>
@@ -148,7 +148,7 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
                 </div>
                 <div className="flex items-center gap-4 p-6 bg-zinc-900/30 border border-white/5">
                   <ShieldCheck className="w-5 h-5 text-premium-gold" />
-                  <p className="text-[9px] font-bold uppercase tracking-widest text-zinc-500">Authentic Human Club Registry Verified</p>
+                  <p className="text-[9px] font-bold uppercase tracking-widest text-zinc-500">Authentic YOUR BRAND NAME Registry Verified</p>
                 </div>
               </div>
             </div>

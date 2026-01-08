@@ -85,7 +85,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
         <div className="w-full md:w-96 bg-black border-r border-white/5 flex flex-col p-12">
           <div className="mb-24">
             <h2 className="text-2xl font-serif-premium tracking-[0.6em] font-bold text-premium-gold mb-3">ATELIER CORE</h2>
-            <p className="text-[9px] text-zinc-700 uppercase tracking-[0.4em] font-bold">The Human Club Terminal v3.0</p>
+            <p className="text-[9px] text-zinc-700 uppercase tracking-[0.4em] font-bold">YOUR BRAND NAME v3.0</p>
           </div>
 
           <nav className="flex-1 space-y-6">

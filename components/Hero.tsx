@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-black/80 z-10" />
         <img 
           src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=2000" 
-          alt="The Human Club Aesthetic"
+          alt="YOUR BRAND NAME Aesthetic"
           className="w-full h-full object-cover scale-110 animate-pulse-slow grayscale"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-black/60 z-20" />
@@ -23,12 +23,12 @@ export const Hero: React.FC = () => {
       <div className="relative z-30 text-center px-6 max-w-6xl">
         <div className="overflow-hidden mb-10">
           <p className="text-premium-gold tracking-[1em] uppercase text-[10px] font-bold animate-in slide-in-from-bottom-full duration-1000">
-            Unit Designation: Human
+            Unit Designation: YOUR BRNAD NAME 
           </p>
         </div>
         
         <h2 className="text-6xl md:text-[140px] font-serif-premium font-bold mb-12 leading-[0.9] tracking-tighter text-glow">
-          THE HUMAN <br/><span className="text-zinc-700 italic font-light">CLUB</span>
+          YOUR BRAND <br/><span className="text-zinc-700 italic font-light">NAME</span>
         </h2>
         
         <p className="text-zinc-500 text-[11px] md:text-sm font-light mb-20 max-w-2xl mx-auto leading-[2.5] tracking-[0.5em] uppercase">

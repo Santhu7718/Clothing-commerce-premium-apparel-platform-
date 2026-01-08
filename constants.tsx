@@ -6,7 +6,7 @@ export const PRODUCTS: Product[] = [
     id: 'p1',
     name: 'Club Heavyweight Tee',
     price: 85.00,
-    description: 'The foundation of the Human Club archive. Constructed from 320GSM ultra-premium organic cotton, offering a structured architectural drape that defines the modern silhouette.',
+    description: 'The foundation of the YOUR BRAND NAME archive. Constructed from 320GSM ultra-premium organic cotton, offering a structured architectural drape that defines the modern silhouette.',
     category: 'Essentials',
     colors: [
       { name: 'Pure Carbon', hex: '#050505' },
@@ -62,6 +62,6 @@ export const PRODUCTS: Product[] = [
 
 export const REVIEWS = [
   { id: 'r1', user: 'Julian M.', rating: 5, comment: 'The structural integrity of this tee is unparalleled. A true club staple.', date: '2024-02-15' },
-  { id: 'r2', user: 'Elena S.', rating: 5, comment: 'Exquisite touch. The Human Club has redefined my expectations of a simple garment.', date: '2024-02-10' },
+  { id: 'r2', user: 'Elena S.', rating: 5, comment: 'Exquisite touch. YOUR BRAND NAME has redefined my expectations of a simple garment.', date: '2024-02-10' },
   { id: 'r3', user: 'Marcus T.', rating: 5, comment: 'Architectural perfection. It drapes exactly how premium apparel should.', date: '2024-01-25' }
 ];

@@ -102,7 +102,7 @@ const App: React.FC = () => {
           <p className="text-[10px] font-bold uppercase tracking-[0.5em] text-zinc-400 group-hover:text-white transition-colors">{userCountry}</p>
         </div>
         <div className="text-center hidden sm:block">
-          <p className="text-[10px] font-bold uppercase tracking-[0.5em] mb-1.5 text-premium-gold">Human Club Certified</p>
+          <p className="text-[10px] font-bold uppercase tracking-[0.5em] mb-1.5 text-premium-gold">YOUR BRAND NAME Certified</p>
           <p className="text-[8px] text-zinc-600 uppercase tracking-[0.3em] font-medium">Atelier Quality Assurance</p>
         </div>
       </div>
@@ -162,7 +162,7 @@ const App: React.FC = () => {
         <div className="max-w-[1500px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 md:gap-24 mb-24 md:mb-32">
             <div className="lg:col-span-6 space-y-10 md:space-y-12">
-              <h1 className="text-3xl md:text-4xl font-serif-premium tracking-[0.6em] font-bold text-premium-gold mb-10 text-glow">THE HUMAN CLUB</h1>
+              <h1 className="text-3xl md:text-4xl font-serif-premium tracking-[0.6em] font-bold text-premium-gold mb-10 text-glow">YOUR BRAND NAME</h1>
               <p className="text-zinc-600 text-[10px] md:text-[11px] font-medium max-w-md leading-[2.2] uppercase tracking-[0.4em]">
                 Premium apparel designed for modern humans. Engineered with integrity, draped for presence.
               </p>
@@ -193,7 +193,7 @@ const App: React.FC = () => {
           
           <div className="pt-20 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-12">
             <p className="text-[10px] text-zinc-800 uppercase tracking-[0.6em] font-bold text-center md:text-left">
-              © 2024 THE HUMAN CLUB | ATELIER CLOTHING SYSTEM
+              © 2026 YOUR BRAND NAME | ATELIER CLOTHING SYSTEM
             </p>
 
             <div 
