@@ -1,0 +1,9 @@
+
+{
+  "name": "The Human Club | Premium Apparel",
+  "description": "A luxury e-commerce platform for The Human Club featuring a 360° interactive product viewer, cinematic hero sections, and a bespoke design engine.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
